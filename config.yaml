@@ -1,0 +1,9 @@
+# Example YAML file
+person:
+  name: John Doe
+  age: 30
+  occupation: Developer
+  interests:
+    - Programming
+    - Reading
+    - Hiking
