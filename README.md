@@ -5,9 +5,9 @@
 This GitHub repository is dedicated to the analysis of A/B testing conducted by Vanguard, one of the largest investment companies globally, in 2017. This project aimed to assess whether a newly proposed User Interface (UI) could enhance user completion rates, contributing to an overall better client experience. The repository contains datasets, analytical scripts, and visualization files used and generated during the study.
 
 ## Team Members
-- **Rosemary Medina-Casanova**: Specialized in data cleaning and hypothesis testing.
-- **Gian Villafañe**: Focused on data visualization and statistical analysis.
-- **Maya Wilson-Fernandez**: Managed project coordination and documentation.
+- **Rosemary Medina-Casanova**
+- **Gian Villafañe**
+- **Maya Wilson-Fernandez**
 
 ## Data Description
 We utilized three key datasets to perform our analysis, each serving a distinct purpose in the investigation:
