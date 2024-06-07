@@ -6,8 +6,8 @@ This GitHub repository is dedicated to the analysis of A/B testing conducted by 
 
 ## Team Members
 - **Rosemary Medina-Casanova**
-- **Gian Villafañe**
 - **Maya Wilson-Fernandez**
+- **Gian F. Villafañe Morales**
 
 ## Data Description
 We utilized three key datasets to perform our analysis, each serving a distinct purpose in the investigation:
