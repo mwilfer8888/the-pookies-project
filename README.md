@@ -1,37 +1,50 @@
 # the-pookies-project
-# Vanguard A/B Testing for New User Interface
-## Overview
-This repository contains the analysis of A/B testing conducted by Vanguard in 2017 to evaluate a new User Interface (UI) aimed at improving completion rates of user interactions. The primary question addressed was whether the new UI led to higher completion rates compared to the old one.
-## Team Members
-- Rosemary Medina-Casanova
-- Gian Villafañe
-- Maya Wilson-Fernandez
-## Data Overview
-The analysis utilized three main datasets:
-1. **Client Profiles:** Contains demographics such as age, gender, tenure, and account balances.
-2. **Digital Footprints:** Includes process steps and visitor IDs, crucial for identifying performance metrics.
-3. **Experiment Roster:** Indicates whether clients were placed in the Test or Control group.
-## Key Findings
-- The demographic group aged 40-64 had the highest participation and account balances.
-- A 10% increase in the completion rate was observed in the Test environment, surpassing the Vanguard's threshold of 5%.
-- The data suggest that the redesign costs are justified by the improved completion rates.
-## Exploratory Data Analysis
-The analysis showed that:
-- Both test and control environments maintained a balanced distribution of demographics.
-- Error rates, bounce rates, and average durations per step were calculated to measure UI efficiency.
-## Hypothesis Testing
-- **Null Hypothesis:** No significant difference in completion rates between high and low balance accounts.
-- **Chi-squared Test Results:** P-value = 0.7112, indicating that the null hypothesis cannot be rejected.
-## Experiment Evaluation
-- Duration: Three months
-- Sample Size: 50,000 participants (Test - 26,968; Control - 23,532)
-## Challenges and Learnings
-- Managing the GitHub repository and resolving merge conflicts was challenging.
-- Creating accurate KPI visualizations in Tableau required precise data manipulation.
-## Conclusion and Recommendations
-- **Conclusion:** The new UI was successful in improving completion rates and is cost-effective.
-- **Recommendations for Vanguard:**
-  - Focus further design improvements around the needs of the dominant age group (40-64).
-  - Develop initiatives to attract and retain younger clients, such as partnerships with financial literacy programs for youth.
-## Visualizations
-- Visualizations of data were primarily made on Tableau.
+Vanguard UI A/B Testing Analysis 2017
+Overview
+This GitHub repository is dedicated to the analysis of A/B testing conducted by Vanguard, one of the largest investment companies globally, in 2017. This project aimed to assess whether a newly proposed User Interface (UI) could enhance user completion rates, contributing to an overall better client experience. The repository contains datasets, analytical scripts, and visualization files used and generated during the study.
+
+Team Members
+Rosemary Medina-Casanova: Specialized in data cleaning and hypothesis testing.
+Gian Villafañe: Focused on data visualization and statistical analysis.
+Maya Wilson-Fernandez: Managed project coordination and documentation.
+Data Description
+We utilized three key datasets to perform our analysis, each serving a distinct purpose in the investigation:
+
+Client Profiles: This dataset provided comprehensive demographic details of our clients such as age, gender, tenure with Vanguard, and account balances which are crucial for personalizing client interactions and understanding user behavior within different demographic segments.
+Digital Footprints: Contained data about the digital interactions of users within the UI, including visitor IDs and the sequences of steps taken by users. This dataset was instrumental in identifying patterns and bottlenecks in the UI flow.
+Experiment Roster: A critical dataset that classified clients into either the Test or Control group, allowing us to measure the effects of the new UI compared to the existing one.
+Exploratory Data Analysis
+We conducted a thorough exploratory data analysis to understand the demographics and behavior of our client base:
+
+The 40-64 age group emerged as the most significant demographic, suggesting a potential market segment for targeted product offerings.
+A gender disparity was noted in the younger demographics, with males predominating. This insight could direct targeted marketing strategies to balance engagement across genders.
+Key Performance Indicators
+Our evaluation of the UI's performance was based on several key metrics:
+
+Completion Rate: This primary metric measured the percentage of users who completed their intended tasks within the new UI. An increase here indicates a more intuitive or user-friendly interface.
+Bounce Rate: We analyzed how often users exited the process prematurely, which helped identify pain points or confusing elements in the UI.
+Error Rate: Tracking errors encountered by users allowed us to pinpoint areas needing technical improvements.
+Results
+Our analysis yielded positive results:
+
+The new UI demonstrated a 10% increase in completion rates, which was double the initial improvement target set by Vanguard.
+Although the error rates were minimal, slight differences in bounce rates provided insights into user patience and interface navigability.
+Challenges and Learnings
+Throughout this project, we encountered several challenges and learned valuable lessons:
+
+GitHub Repository Management: We experienced challenges with conflict resolution and consistent version control, especially when merging contributions from multiple collaborators.
+Tableau Mastery: Developing proficient skills in Tableau was challenging but ultimately rewarding, as it enabled us to create powerful visualizations that clearly communicated our findings.
+Data Handling: Correcting initial errors with identification numbers was a pivotal moment that taught us the importance of meticulous data verification.
+Conclusion and Recommendations
+The updated UI was a success in terms of both user engagement and meeting the cost-effectiveness thresholds set by Vanguard. Key recommendations include:
+
+Design Focus: Continue to design enhancements with a focus on the dominant 40-64 age group.
+Youth Engagement: Develop initiatives to attract a younger client base, such as collaborations with educational programs and tailored investment opportunities for young adults.
+Visualization and Usage
+The visuals directory contains graphical representations created in Tableau that depict our findings. To effectively use this repository:
+
+Clone the repository using the provided URL.
+Explore the analysis folder to review the Jupyter notebooks detailing our analytical processes.
+Review the data folder for the raw datasets and the visuals folder for the graphical outputs.
+For collaboration, queries, or suggestions, please open an issue or contact the team members directly through GitHub.
+
